@@ -1,0 +1,118 @@
+[
+  {"name":"Rat","hp":20,"class":"Beast","elements":{"weak":"fire","resist":"earth"},"sprite":"https://tibia.fandom.com/wiki/Rat","recommended_level":1},
+  {"name":"Cave Rat","hp":30,"class":"Beast","elements":{"weak":"fire","resist":"earth"},"sprite":"https://tibia.fandom.com/wiki/Cave_Rat","recommended_level":1},
+  {"name":"Spider","hp":26,"class":"Beast","elements":{"weak":"fire","resist":"poison"},"sprite":"https://tibia.fandom.com/wiki/Spider","recommended_level":1},
+  {"name":"Poison Spider","hp":30,"class":"Beast","elements":{"weak":"fire","resist":"poison"},"sprite":"https://tibia.fandom.com/wiki/Poison_Spider","recommended_level":2},
+  {"name":"Wolf","hp":25,"class":"Beast","elements":{"weak":"fire","resist":"earth"},"sprite":"https://tibia.fandom.com/wiki/Wolf","recommended_level":1},
+  {"name":"Bear","hp":85,"class":"Beast","elements":{"weak":"fire","resist":"earth"},"sprite":"https://tibia.fandom.com/wiki/Bear","recommended_level":4},
+
+  {"name":"Orc","hp":70,"class":"Humanoid","elements":{"weak":"fire","resist":"earth"},"sprite":"https://tibia.fandom.com/wiki/Orc","recommended_level":8},
+  {"name":"Orc Spearman","hp":105,"class":"Humanoid","elements":{"weak":"fire","resist":"earth"},"sprite":"https://tibia.fandom.com/wiki/Orc_Spearman","recommended_level":10},
+  {"name":"Orc Warrior","hp":125,"class":"Humanoid","elements":{"weak":"fire","resist":"earth"},"sprite":"https://tibia.fandom.com/wiki/Orc_Warrior","recommended_level":15},
+  {"name":"Orc Berserker","hp":185,"class":"Humanoid","elements":{"weak":"fire","resist":"earth"},"sprite":"https://tibia.fandom.com/wiki/Orc_Berserker","recommended_level":25},
+  {"name":"Orc Leader","hp":450,"class":"Humanoid","elements":{"weak":"fire","resist":"earth"},"sprite":"https://tibia.fandom.com/wiki/Orc_Leader","recommended_level":50},
+  {"name":"Orc Warlord","hp":950,"class":"Humanoid","elements":{"weak":"fire","resist":"earth"},"sprite":"https://tibia.fandom.com/wiki/Orc_Warlord","recommended_level":70},
+
+  {"name":"Minotaur","hp":100,"class":"Humanoid","elements":{"weak":"fire","resist":"earth"},"sprite":"https://tibia.fandom.com/wiki/Minotaur","recommended_level":8},
+  {"name":"Minotaur Guard","hp":185,"class":"Humanoid","elements":{"weak":"fire","resist":"earth"},"sprite":"https://tibia.fandom.com/wiki/Minotaur_Guard","recommended_level":20},
+  {"name":"Minotaur Archer","hp":125,"class":"Humanoid","elements":{"weak":"fire","resist":"earth"},"sprite":"https://tibia.fandom.com/wiki/Minotaur_Archer","recommended_level":12},
+  {"name":"Minotaur Mage","hp":85,"class":"Humanoid","elements":{"weak":"death","resist":"fire"},"sprite":"https://tibia.fandom.com/wiki/Minotaur_Mage","recommended_level":18},
+
+  {"name":"Troll","hp":50,"class":"Humanoid","elements":{"weak":"fire","resist":"earth"},"sprite":"https://tibia.fandom.com/wiki/Troll","recommended_level":3},
+  {"name":"Troll Champion","hp":150,"class":"Humanoid","elements":{"weak":"fire","resist":"earth"},"sprite":"https://tibia.fandom.com/wiki/Troll_Champion","recommended_level":10},
+
+  {"name":"Cyclops","hp":260,"class":"Giant","elements":{"weak":"fire","resist":"earth"},"sprite":"https://tibia.fandom.com/wiki/Cyclops","recommended_level":20},
+  {"name":"Cyclops Drone","hp":255,"class":"Giant","elements":{"weak":"fire","resist":"earth"},"sprite":"https://tibia.fandom.com/wiki/Cyclops_Drone","recommended_level":25},
+  {"name":"Cyclops Smith","hp":280,"class":"Giant","elements":{"weak":"fire","resist":"earth"},"sprite":"https://tibia.fandom.com/wiki/Cyclops_Smith","recommended_level":30},
+
+  {"name":"Dragon","hp":1000,"class":"Dragon","elements":{"weak":"ice","resist":"fire"},"sprite":"https://tibia.fandom.com/wiki/Dragon","recommended_level":40},
+  {"name":"Dragon Lord","hp":1900,"class":"Dragon","elements":{"weak":"ice","resist":"fire"},"sprite":"https://tibia.fandom.com/wiki/Dragon_Lord","recommended_level":80},
+  {"name":"Frost Dragon","hp":1800,"class":"Dragon","elements":{"weak":"fire","resist":"ice"},"sprite":"https://tibia.fandom.com/wiki/Frost_Dragon","recommended_level":80},
+  {"name":"Undead Dragon","hp":6000,"class":"Undead","elements":{"weak":"holy","resist":"death"},"sprite":"https://tibia.fandom.com/wiki/Undead_Dragon","recommended_level":150},
+
+  {"name":"Demon","hp":8200,"class":"Demon","elements":{"weak":"holy","resist":"fire","immune":"death"},"sprite":"https://tibia.fandom.com/wiki/Demon","recommended_level":120},
+  {"name":"Behemoth","hp":3200,"class":"Giant","elements":{"weak":"ice","resist":"earth"},"sprite":"https://tibia.fandom.com/wiki/Behemoth","recommended_level":80},
+  {"name":"Hydra","hp":2250,"class":"Reptile","elements":{"weak":"ice","resist":"earth"},"sprite":"https://tibia.fandom.com/wiki/Hydra","recommended_level":70},
+  {"name":"Serpent Spawn","hp":2700,"class":"Reptile","elements":{"weak":"ice","resist":"earth"},"sprite":"https://tibia.fandom.com/wiki/Serpent_Spawn","recommended_level":100},
+
+  {"name":"Vampire","hp":475,"class":"Undead","elements":{"weak":"holy","resist":"death"},"sprite":"https://tibia.fandom.com/wiki/Vampire","recommended_level":40},
+  {"name":"Vampire Bride","hp":1350,"class":"Undead","elements":{"weak":"holy","resist":"death"},"sprite":"https://tibia.fandom.com/wiki/Vampire_Bride","recommended_level":80},
+  {"name":"Vampire Viscount","hp":2600,"class":"Undead","elements":{"weak":"holy","resist":"death"},"sprite":"https://tibia.fandom.com/wiki/Vampire_Viscount","recommended_level":120},
+
+  {"name":"Ghoul","hp":100,"class":"Undead","elements":{"weak":"holy","resist":"death"},"sprite":"https://tibia.fandom.com/wiki/Ghoul","recommended_level":12},
+  {"name":"Skeleton","hp":50,"class":"Undead","elements":{"weak":"holy","resist":"death"},"sprite":"https://tibia.fandom.com/wiki/Skeleton","recommended_level":5},
+  {"name":"Mummy","hp":180,"class":"Undead","elements":{"weak":"fire","resist":"death"},"sprite":"https://tibia.fandom.com/wiki/Mummy","recommended_level":20},
+  {"name":"Necromancer","hp":580,"class":"Undead","elements":{"weak":"holy","resist":"death"},"sprite":"https://tibia.fandom.com/wiki/Necromancer","recommended_level":45},
+
+  {"name":"Dark Mage","hp":230,"class":"Humanoid","elements":{"weak":"physical","resist":"death"},"sprite":"https://tibia.fandom.com/wiki/Dark_Mage","recommended_level":20},
+  {"name":"Blue Djinn","hp":430,"class":"Elemental","elements":{"weak":"fire","resist":"ice"},"sprite":"https://tibia.fandom.com/wiki/Blue_Djinn","recommended_level":30},
+  {"name":"Green Djinn","hp":430,"class":"Elemental","elements":{"weak":"death","resist":"energy"},"sprite":"https://tibia.fandom.com/wiki/Green_Djinn","recommended_level":30},
+
+  {"name":"Giant Spider","hp":1300,"class":"Beast","elements":{"weak":"fire","resist":"earth"},"sprite":"https://tibia.fandom.com/wiki/Giant_Spider","recommended_level":70},
+  {"name":"Wyrm","hp":1020,"class":"Dragonkin","elements":{"weak":"ice","resist":"fire"},"sprite":"https://tibia.fandom.com/wiki/Wyrm","recommended_level":60},
+  {"name":"Elder Wyrm","hp":2650,"class":"Dragonkin","elements":{"weak":"ice","resist":"fire"},"sprite":"https://tibia.fandom.com/wiki/Elder_Wyrm","recommended_level":120},
+
+  {"name":"Nightmare","hp":1200,"class":"Demonic","elements":{"weak":"holy","resist":"fire"},"sprite":"https://tibia.fandom.com/wiki/Nightmare","recommended_level":80},
+  {"name":"Nightmare Scion","hp":1350,"class":"Demonic","elements":{"weak":"holy","resist":"fire"},"sprite":"https://tibia.fandom.com/wiki/Nightmare_Scion","recommended_level":90},
+
+  {"name":"Hero","hp":900,"class":"Humanoid","elements":{"weak":"death","resist":"physical"},"sprite":"https://tibia.fandom.com/wiki/Hero","recommended_level":60},
+  {"name":"Smuggler","hp":95,"class":"Humanoid","elements":{"weak":"physical","resist":"death"},"sprite":"https://tibia.fandom.com/wiki/Smuggler","recommended_level":12},
+  {"name":"Pirate Cutthroat","hp":245,"class":"Humanoid","elements":{"weak":"fire","resist":"earth"},"sprite":"https://tibia.fandom.com/wiki/Pirate_Cutthroat","recommended_level":20},
+
+  {"name":"Warlock","hp":1800,"class":"Humanoid","elements":{"weak":"physical","immune":"death"},"sprite":"https://tibia.fandom.com/wiki/Warlock","recommended_level":100},
+  {"name":"Fury","hp":3400,"class":"Demon","elements":{"weak":"holy","resist":"fire"},"sprite":"https://tibia.fandom.com/wiki/Fury","recommended_level":130},
+
+  {"name":"Grim Reaper","hp":4500,"class":"Undead","elements":{"weak":"holy","resist":"death"},"sprite":"https://tibia.fandom.com/wiki/Grim_Reaper","recommended_level":150},
+  {"name":"Hand of Cursed Fate","hp":8500,"class":"Demon","elements":{"weak":"holy","resist":"fire"},"sprite":"https://tibia.fandom.com/wiki/Hand_of_Cursed_Fate","recommended_level":200},
+
+  {"name":"Hellhound","hp":8300,"class":"Demon","elements":{"weak":"ice","resist":"fire"},"sprite":"https://tibia.fandom.com/wiki/Hellhound","recommended_level":180},
+  {"name":"Plaguesmith","hp":8200,"class":"Demon","elements":{"weak":"holy","resist":"fire","resist2":"poison"},"sprite":"https://tibia.fandom.com/wiki/Plaguesmith","recommended_level":200},
+  {"name":"Hellspawn","hp":3500,"class":"Demon","elements":{"weak":"holy","resist":"death"},"sprite":"https://tibia.fandom.com/wiki/Hellspawn","recommended_level":120},
+
+  {"name":"Grave Guard","hp":2300,"class":"Undead","elements":{"weak":"holy","resist":"death"},"sprite":"https://tibia.fandom.com/wiki/Grave_Guard","recommended_level":80},
+  {"name":"Lost Soul","hp":6000,"class":"Undead","elements":{"weak":"holy","resist":"death"},"sprite":"https://tibia.fandom.com/wiki/Lost_Soul","recommended_level":150},
+  {"name":"Blightwalker","hp":8000,"class":"Undead","elements":{"weak":"holy","resist":"death"},"sprite":"https://tibia.fandom.com/wiki/Blightwalker","recommended_level":180},
+
+  {"name":"War Golem","hp":4500,"class":"Construct","elements":{"weak":"energy","resist":"physical"},"sprite":"https://tibia.fandom.com/wiki/War_Golem","recommended_level":120},
+  {"name":"Worker Golem","hp":420,"class":"Construct","elements":{"weak":"energy","resist":"physical"},"sprite":"https://tibia.fandom.com/wiki/Worker_Golem","recommended_level":30},
+
+  {"name":"Bonebeast","hp":580,"class":"Undead","elements":{"weak":"holy","resist":"death"},"sprite":"https://tibia.fandom.com/wiki/Bonebeast","recommended_level":30},
+  {"name":"Demon Skeleton","hp":580,"class":"Undead","elements":{"weak":"holy","resist":"death"},"sprite":"https://tibia.fandom.com/wiki/Demon_Skeleton","recommended_level":25},
+
+  {"name":"Lich","hp":900,"class":"Undead","elements":{"weak":"holy","resist":"death"},"sprite":"https://tibia.fandom.com/wiki/Lich","recommended_level":80},
+  {"name":"Frost Giant","hp":1600,"class":"Giant","elements":{"weak":"fire","resist":"ice"},"sprite":"https://tibia.fandom.com/wiki/Frost_Giant","recommended_level":60},
+  {"name":"Frost Giantess","hp":1900,"class":"Giant","elements":{"weak":"fire","resist":"ice"},"sprite":"https://tibia.fandom.com/wiki/Frost_Giantess","recommended_level":80},
+
+  {"name":"Grimvale Werewolf","hp":2500,"class":"Lycanthrope","elements":{"weak":"silver","resist":"death"},"sprite":"https://tibia.fandom.com/wiki/Werewolf","recommended_level":80},
+  {"name":"Werebear","hp":2800,"class":"Lycanthrope","elements":{"weak":"fire","resist":"earth"},"sprite":"https://tibia.fandom.com/wiki/Werebear","recommended_level":90},
+  {"name":"Wereboar","hp":2400,"class":"Lycanthrope","elements":{"weak":"ice","resist":"earth"},"sprite":"https://tibia.fandom.com/wiki/Wereboar","recommended_level":90},
+
+  {"name":"Medusa","hp":3500,"class":"Mythical","elements":{"weak":"physical","resist":"death"},"sprite":"https://tibia.fandom.com/wiki/Medusa","recommended_level":120},
+
+  {"name":"Frazzlemaw","hp":6000,"class":"Beast","elements":{"weak":"physical","resist":"death"},"sprite":"https://tibia.fandom.com/wiki/Frazzlemaw","recommended_level":150},
+  {"name":"Silencer","hp":4500,"class":"Beast","elements":{"weak":"fire","resist":"earth"},"sprite":"https://tibia.fandom.com/wiki/Silencer","recommended_level":140},
+
+  {"name":"Retching Horror","hp":5800,"class":"Aberration","elements":{"weak":"holy","resist":"death"},"sprite":"https://tibia.fandom.com/wiki/Retching_Horror","recommended_level":150},
+  {"name":"Choking Fear","hp":4200,"class":"Aberration","elements":{"weak":"holy","resist":"death"},"sprite":"https://tibia.fandom.com/wiki/Choking_Fear","recommended_level":130},
+  {"name":"Feversleep","hp":5300,"class":"Aberration","elements":{"weak":"holy","resist":"death"},"sprite":"https://tibia.fandom.com/wiki/Feversleep","recommended_level":160},
+
+  {"name":"Juggernaut","hp":8000,"class":"Construct","elements":{"weak":"energy","resist":"physical"},"sprite":"https://tibia.fandom.com/wiki/Juggernaut","recommended_level":200},
+  {"name":"Guzzlemaw","hp":9000,"class":"Beast","elements":{"weak":"physical","resist":"earth"},"sprite":"https://tibia.fandom.com/wiki/Guzzlemaw","recommended_level":200},
+
+  {"name":"Grorlam","hp":2500,"class":"Elemental","elements":{"weak":"earth","resist":"energy"},"sprite":"https://tibia.fandom.com/wiki/Grorlam","recommended_level":100},
+  {"name":"Stone Golem","hp":270,"class":"Construct","elements":{"weak":"earth","resist":"physical"},"sprite":"https://tibia.fandom.com/wiki/Stone_Golem","recommended_level":12},
+
+  {"name":"Fire Devil","hp":220,"class":"Demon","elements":{"weak":"ice","resist":"fire"},"sprite":"https://tibia.fandom.com/wiki/Fire_Devil","recommended_level":15},
+  {"name":"Flameborn","hp":3450,"class":"Elemental","elements":{"weak":"ice","resist":"fire"},"sprite":"https://tibia.fandom.com/wiki/Flameborn","recommended_level":140},
+
+  {"name":"Ice Witch","hp":520,"class":"Humanoid","elements":{"weak":"fire","resist":"ice"},"sprite":"https://tibia.fandom.com/wiki/Ice_Witch","recommended_level":40},
+  {"name":"Sea Serpent","hp":3200,"class":"Reptile","elements":{"weak":"ice","resist":"energy"},"sprite":"https://tibia.fandom.com/wiki/Sea_Serpent","recommended_level":100},
+
+  {"name":"Water Elemental","hp":550,"class":"Elemental","elements":{"weak":"energy","resist":"ice"},"sprite":"https://tibia.fandom.com/wiki/Water_Elemental","recommended_level":25},
+  {"name":"Energy Elemental","hp":450,"class":"Elemental","elements":{"weak":"earth","resist":"energy"},"sprite":"https://tibia.fandom.com/wiki/Energy_Elemental","recommended_level":30},
+  {"name":"Earth Elemental","hp":550,"class":"Elemental","elements":{"weak":"fire","resist":"earth"},"sprite":"https://tibia.fandom.com/wiki/Earth_Elemental","recommended_level":30},
+
+  {"name":"Nightstalker","hp":2200,"class":"Demonic","elements":{"weak":"holy","resist":"death"},"sprite":"https://tibia.fandom.com/wiki/Nightstalker","recommended_level":90},
+
+  {"name":"Hellflayer","hp":8000,"class":"Demon","elements":{"weak":"holy","resist":"fire"},"sprite":"https://tibia.fandom.com/wiki/Hellflayer","recommended_level":200}
+]

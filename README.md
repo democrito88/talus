@@ -7,7 +7,7 @@ base de conhecimento de Tibia
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ### About
-Projeto da imersão Dev Google da Alura.
+Projeto da imersão Dev Google da Alura. Trata-se de uma base de conhecimento do jogo online [Tibia](https://www.tibia.com), desenvolvido pela [CipSoft](https://www.cipsoft.com)
 
 ### Author
 [Demócrito d'Anunciação](http://github.com/democrito88)

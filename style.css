@@ -1,35 +1,43 @@
 /* Base de identidade visual inspirada no site clássico do Tibia */
 
+:root{
+  --dourado: #c99c2e; /* Dourado */
+  --vermelho-escuro: #471313; /* Vermelho escuro */
+  --cinza-chumbo: #2b2b2b; /* Fundo escuro */
+  --pergaminho: #f0e6c8; /* Tom pergaminho */
+  --marrom-terra: #5a4216; /* Marrom terra */
+}
+
 @font-face {
     font-family: 'Kingthins Petrock';
-    src: url('./fonts/Kingthings\ Petrock.ttf') format('truetype');
+    src: url('./assets/fonts/Kingthings\ Petrock.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Kingthings Petrock light';
-    src: url('./fonts/Kingthings\ Petrock\ light.ttf') format('truetype');
+    src: url('./assets/fonts/Kingthings\ Petrock\ light.ttf') format('truetype');
     font-weight: lighter;
     font-style: normal;
 }
 
 /* Tipografia e cores base */
 body {
-  background-color: #2b2b2b; /* Fundo escuro medieval */
-  color: #f0e6c8;            /* Texto em tom pergaminho/bege */
+  background-color: var(--cinza-chumbo); /* Fundo escuro medieval */
+  color: var(--pergaminho);            /* Texto em tom pergaminho/bege */
   font-family: 'Georgia', serif;
   margin: 0;
   padding: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Kingthins Petrock', sans-serif;
+    font-family: 'Kingthings Petrock light', sans-serif;
 }
 
 /* Cabeçalho com identidade */
 header {
-  background-color: #471313; /* Vermelho escuro */
+  background-color: var(--vermelho-escuro); /* Vermelho escuro */
   color: gold;
   padding: 20px;
   text-align: center;
@@ -41,6 +49,10 @@ header h1 {
   font-size: 2.5em;
   text-shadow: 2px 2px 4px black;
   margin: 0;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 0px;
 }
 
 /* Área de navegação */
@@ -48,6 +60,9 @@ nav {
   background-color: #1f1f1f;
   padding: 10px 20px;
   border-bottom: 2px solid #444;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav a {
@@ -60,6 +75,25 @@ nav a {
 
 nav a:hover {
   color: #c9a400;
+}
+
+nav input[type="text"] {
+  padding: 5px 10px;
+  border: 2px solid var(--marrom-terra);
+  border-radius: 4px;
+  background-color: #333;
+  color: var(--pergaminho);
+}
+
+nav button {
+  background-color: var(--dourado);
+  border: none;
+  padding: 5px 10px;
+  color: #1b1305;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-left: 5px;
 }
 
 /* Conteúdo principal */
@@ -80,7 +114,7 @@ h2 {
 /* Caixas de conteúdo */
 .box {
   background-color: #252525;
-  border: 2px solid #5a4216;
+  border: 2px solid var(--marrom-terra);
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 6px;
@@ -115,6 +149,16 @@ footer {
   font-size: 0.9em;
 
   ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1em;
     list-style-type: none;
+
+    a{
+      color: #aaa;
+      text-decoration: none;
+      font-size: 1.2em;
+    }
   }
 }

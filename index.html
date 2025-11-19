@@ -4,21 +4,33 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tálus</title>
+  <link rel="shortcut icon" href="https://static.tibia.com/images/global/general/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
 <body>
   <header>
-    <h1>Tálus</h1>
+    <h1><img src="https://static.tibia.com/images/global/general/favicon.ico" alt="Tálus Logo" />álus</h1>
     <h5>A sua base de conhecimento tibiana</h5>
   </header>
   <nav>
-    <a href="#">Início</a>
-    <a href="#">Personagens</a>
-    <a href="#">Missões</a>
-    <a href="#">Itens</a>
+    <div>
+      <a href="/">Início</a>
+      <a href="#">Criaturas</a>
+      <a href="#">Missões</a>
+      <a href="#">Itens</a>
+    </div>
+    <div>
+      <input type="text" name="search" id="search" placeholder="Buscar..." />
+      <button><i class="bi bi-search"></i></button>
+    </div>
   </nav>
   <main>
+    <h2>Esclarecimento</h2>
+    <div class="box">
+      <p>Esta página está em constante expansão. Caso a informação esteja incompleta ou incorreta, sua contribuição será muito bem-vinda.</p>
+      <button class="button">Saiba como contribuir</button>
+    </div>
     <h2>Boas-vindas, aventureiro!</h2>
     <div class="box">
       <p>Este é um mundo de magia e espada. Escolha seu caminho com sabedoria.</p>
@@ -28,11 +40,11 @@
   <footer>
       <ul>
           <li><a href="https://github.com/democrito88"><i class="bi bi-github"></i></a></li>
-          <li><a href="https://alura.com.br"><img src="" /> Perfil alura</a></li>
+          <li><a href="https://alura.com.br"><img src="https://play-lh.googleusercontent.com/yDjaHCaOn_O89vnY7eOKH6ElEBtJrmN2CSI4yhiP1_GVC2zrxXWSFGxO0lt9-CU0mV4" alt="logo alura" width="15px"></a></li>
           <li><a href="https://linkedin.com"><i class="bi bi-linkedin"></i></a></li>
       </ul>
-      <h6>Tálus - 2025</h6>
-      <span>&copy;Todos os direitos reservados</span>
+      <h5>Tálus - 2025</h5>
+      <small>&copy;Todos os direitos reservados</small>
   </footer>
 </body>
 </html>
