@@ -18,18 +18,33 @@ async function buscaMissaoPorNome(nome) {
     return missoes.filter(missao => missao.name.toLowerCase().includes(nome.toLowerCase()));
 }
 
+async function buscaMissao(id) {
+    const missoes = await buscaMissoes();
+    const missao = missoes.find((missao, index) => index == parseInt(id));
+    if (missao) {
+        preencheDadosMissao(missao);
+    } else {
+        console.error("Missão não encontrada");
+    }
+}
+
 function preencheDadosMissao(missao) {
     const classeMissao = ".card-missao__";
     document.querySelector(classeMissao + "nome").textContent = missao.name;
-    document.querySelector(classeMissao + "tipo").textContent = `Tipo: ${missao.type}`;
+    document.querySelector(classeMissao + "tipo").innerHTML = `<small class="badge"> ${missao.type}</small>`;
     document.querySelector(classeMissao + "descricao").textContent = missao.description;
-    document.querySelector(classeMissao + "level").textContent = `Level Mínimo: ${missao.attributes.recommended_level}`;
-    // Adicione outros campos conforme necessário
+    const atributosContainer = document.querySelector(classeMissao + "atributos");
+    atributosContainer.innerHTML = `
+        <li><strong>Level Mínimo:</strong> ${missao.attributes.recommended_level}</li>
+        <li><strong>Local:</strong> ${missao.attributes.location}</li>
+    `;
+    const recompensasContainer = document.querySelector(classeMissao + "recompensas");
+    recompensasContainer.innerHTML = missao.attributes.reward.map(reward => `<li>${reward}</li>`).join("");
 }
 
 /**
  * Lista missões na tela.
- * @param {number} [max=10] - Número máximo de missões a serem listadas. Se -1, lista todas.
+ * Número máximo de missões a serem listadas. Se -1, lista todas.
  */
 async function listarMissoes(max = 10) {
     const missoes = await buscaMissoes();
@@ -38,17 +53,14 @@ async function listarMissoes(max = 10) {
 
     const missoesParaListar = max === -1 ? missoes : missoes.slice(0, max);
 
-    missoesParaListar.forEach(missao => {
+    missoesParaListar.forEach((missao, index) => {
         const divMissao = document.createElement("div");
         divMissao.classList.add("card-missao");
         divMissao.innerHTML = `
-            <h3 class="card-missao__nome">${missao.name}</h3>
-            <p class="card-missao__descricao">${missao.description}</p>
-            <ul class="card-missao__detalhes" style="list-style-type: none; padding: 0;">
-                <li><strong>Tipo:</strong> ${missao.type}</li>
-                <li><strong>Level Mínimo:</strong> ${missao.attributes.recommended_level}</li>
-                <li><strong>Local:</strong> ${missao.attributes.location}</li>
-            </ul>
+            <a href="missao.html?id=${index}">
+                <h3 class="card-missao__nome">${missao.name}  <small class="badge">${missao.type}</small></h3>
+                <p><strong>Nível Mínimo:</strong> ${missao.attributes.recommended_level}</p>
+            </a>
         `;
         container.appendChild(divMissao);
     });

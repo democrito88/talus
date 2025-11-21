@@ -18,17 +18,24 @@ async function buscaItemPorNome(nome) {
     return itens.filter(item => item.name.toLowerCase().includes(nome.toLowerCase()));
 }
 
+async function buscaItem(id){
+    const itens = await buscaItens();
+    const item = itens.find((item, index) => index == id);
+    preencheDadosItem(item);
+}
+
 function preencheDadosItem(item) {
     const classeItem = ".card-item__";
     document.querySelector(classeItem + "nome").textContent = item.name;
     document.querySelector(classeItem + "sprite").src = item.sprite;
-    document.querySelector(classeItem + "descricao").textContent = item.description;
-    // Adicione outros campos conforme a estrutura do seu JSON de itens
+    document.querySelector(classeItem + "classes").innerHTML = item.classes.map(classe => `${classe}`).join(', ');
+    document.querySelector(classeItem + "raridade").textContent = `Raridade: ${item.rarity}`;
+    document.querySelector(classeItem + "nivel-recomendado").textContent = `Nível Recomendado: ${item.recommended_level}`;
 }
 
 /**
  * Lista itens na tela.
- * @param {number} [max=10] - Número máximo de itens a serem listados. Se -1, lista todos.
+ * Número máximo de itens a serem listados. Se -1, lista todos.
  */
 async function listarItens(max = 10) {
     const itens = await buscaItens();
@@ -37,13 +44,17 @@ async function listarItens(max = 10) {
 
     const itensParaListar = max === -1 ? itens : itens.slice(0, max);
 
-    itensParaListar.forEach(item => {
+    itensParaListar.forEach((item, index) => {
         const divItem = document.createElement("div");
         divItem.classList.add("card-item");
         divItem.innerHTML = `
-            <img class="card-item__sprite" src="${item.sprite}" alt="${item.name}" width="32" height="32">
-            <h3 class="card-item__nome">${item.name}</h3>
-            <p class="card-item__descricao">${item.type}</p>
+            <a href="item.html?id=${index}">
+                <img class="card-item__sprite" src="${item.sprite}" alt="${item.name}" width="32" height="32">
+                <h3 class="card-item__nome">${item.name}</h3>
+                <ul class="card-item__classes">
+                ${item.classes.map(classe => `<li>${classe}</li>`).join(', ')}
+                </ul>
+            </a>
         `;
         container.appendChild(divItem);
     });

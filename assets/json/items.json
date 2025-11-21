@@ -1,5 +1,14 @@
 [
-  {"name":"Plate Armor","type":"armor","classes":["knight","paladin","sorcerer","druid"],"sprite":"https://raw.githubusercontent.com/peonso/otclient-sprite-library/master/items/3352.png","rarity":"common","recommended_level":8},
+  {
+    "name":"Plate Armor",
+    "type":"armor",
+    "classes":[
+      "knight","paladin","sorcerer","druid"
+      ],
+    "sprite":"https://raw.githubusercontent.com/peonso/otclient-sprite-library/master/items/3352.png",
+    "rarity":"common",
+    "recommended_level":8
+  },
   {"name":"Chain Armor","type":"armor","classes":["knight","paladin","sorcerer","druid"],"sprite":"https://raw.githubusercontent.com/peonso/otclient-sprite-library/master/items/3350.png","rarity":"common","recommended_level":1},
   {"name":"Knight Armor","type":"armor","classes":["knight"],"sprite":"https://raw.githubusercontent.com/peonso/otclient-sprite-library/master/items/3389.png","rarity":"uncommon","recommended_level":20},
   {"name":"Blue Robe","type":"armor","classes":["sorcerer","druid"],"sprite":"https://raw.githubusercontent.com/peonso/otclient-sprite-library/master/items/3567.png","rarity":"rare","recommended_level":30},

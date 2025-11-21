@@ -1,5 +1,15 @@
 [
-  {"name":"The Pits of Inferno Quest","type":"quest","classes":["all"],"description":"Uma das quests mais icônicas do Tibia, enfrentando demônios e obtendo o Demon Outfit.","attributes":{"recommended_level":80,"reward":["Stonecutter Axe","Demon Outfit"],"location":"Plains of Havoc"}},
+  {
+    "name":"The Pits of Inferno Quest",
+    "type":"quest",
+    "classes":["all"],
+    "description":"Uma das quests mais icônicas do Tibia, enfrentando demônios e obtendo o Demon Outfit.",
+    "attributes":{
+      "recommended_level":80,
+      "reward":["Stonecutter Axe","Demon Outfit"],
+      "location":"Plains of Havoc"
+      }
+    },
   {"name":"Inquisition Quest","type":"quest","classes":["all"],"description":"Derrote os líderes do culto de Variphor para ganhar acesso ao prêmio final.","attributes":{"recommended_level":80,"reward":["Spellbook of Dark Mysteries","Crown","Inquisition Gold"],"location":"Thais"}},
   {"name":"Wrath of the Emperor","type":"quest","classes":["all"],"description":"Ajude a Imperadora de Kilmaresh investigando conspirações e rituais sombrios.","attributes":{"recommended_level":80,"reward":["Royal Lost Basher","Zaoan Items"],"location":"Zao"}},
   {"name":"The New Frontier","type":"access","classes":["all"],"description":"Ajuda política e militar para a expansão em Zao, desbloqueando montarias e áreas novas.","attributes":{"recommended_level":60,"reward":["Access to Zao","glooth routes"],"location":"Zao"}},

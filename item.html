@@ -27,30 +27,31 @@
     </header>
     <nav>
       <div>
-      <a href="/">Início</a>
-      <a href="criaturas.html">Criaturas</a>
-      <a href="missoes.html">Missões</a>
-      <a href="itens.html">Itens</a>
-      <a href="sobre.html">Sobre</a>
-    </div>
+        <a href="/">Início</a>
+        <a href="criaturas.html">Criaturas</a>
+        <a href="missoes.html">Missões</a>
+        <a href="itens.html">Itens</a>
+        <a href="sobre.html">Sobre</a>
+      </div>
       <!-- div>
       <input type="text" name="search" id="search" placeholder="Buscar..." />
       <button><i class="bi bi-search"></i></button>
     </div -->
     </nav>
     <main>
-      <section class="box card-criatura">
+      <section class="box card-item">
         <figure>
-          <img class="card-criatura__sprite" src="" alt="" width="300" />
+          <img class="card-item__sprite" src="" alt="" width="300" />
           <figcaption>
-            <h4 class="card-criatura__nome"></h4>
-            <ul class="card-criatura__elementos"></ul>
+            <h4 class="card-item__nome"></h4>
           </figcaption>
+          <div class="card-item__classes-container">
+            <h5>classes</h5>
+            <div class="card-item__classes"></div>
+          </div>
         </figure>
-        <canvas class="card-criatura__separador"></canvas>
-        <div>
-          <ul class="card-criatura__atributos"></ul>
-        </div>
+        <p class="card-item__raridade"></p>
+        <p class="card-item__nivel-recomendado">Nível Recomendado:</p>
       </section>
     </main>
     <footer>
@@ -75,13 +76,13 @@
       <h5>Tálus - 2025</h5>
       <small>&copy;Todos os direitos reservados</small>
     </footer>
-    <script src="js/creatures.js"></script>
+    <script src="js/items.js"></script>
     <script type="text/javascript">
       const queryString = window.location.search; // "?id=1"
       const urlParams = new URLSearchParams(queryString);
 
       const id = urlParams.get("id");
-      buscaCriatura(id);
+      buscaItem(id);
     </script>
   </body>
 </html>

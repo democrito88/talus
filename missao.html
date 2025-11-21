@@ -27,29 +27,32 @@
     </header>
     <nav>
       <div>
-      <a href="/">Início</a>
-      <a href="criaturas.html">Criaturas</a>
-      <a href="missoes.html">Missões</a>
-      <a href="itens.html">Itens</a>
-      <a href="sobre.html">Sobre</a>
-    </div>
+        <a href="/">Início</a>
+        <a href="criaturas.html">Criaturas</a>
+        <a href="missoes.html">Missões</a>
+        <a href="itens.html">Itens</a>
+        <a href="sobre.html">Sobre</a>
+      </div>
       <!-- div>
       <input type="text" name="search" id="search" placeholder="Buscar..." />
       <button><i class="bi bi-search"></i></button>
     </div -->
     </nav>
     <main>
-      <section class="box card-criatura">
-        <figure>
-          <img class="card-criatura__sprite" src="" alt="" width="300" />
-          <figcaption>
-            <h4 class="card-criatura__nome"></h4>
-            <ul class="card-criatura__elementos"></ul>
-          </figcaption>
-        </figure>
-        <canvas class="card-criatura__separador"></canvas>
-        <div>
-          <ul class="card-criatura__atributos"></ul>
+      <section class="box card-missao card-missao__container">
+        <div class="card-missao_esquerda">
+          <h3 class="card-missao__nome"></h3>
+          <p class="card-missao__tipo"></p>
+          <div>
+            <ul class="card-missao__atributos"></ul>
+          </div>
+        </div>
+        <canvas class="card-missao__separador"></canvas>
+        <div class="card-missao_direita">
+          <h4>Descrição</h4>
+          <p class="card-missao__descricao"></p>
+          <h4>Recompensas</h4>
+          <ul class="card-missao__recompensas"></ul>
         </div>
       </section>
     </main>
@@ -75,13 +78,13 @@
       <h5>Tálus - 2025</h5>
       <small>&copy;Todos os direitos reservados</small>
     </footer>
-    <script src="js/creatures.js"></script>
+    <script src="js/missions.js"></script>
     <script type="text/javascript">
       const queryString = window.location.search; // "?id=1"
       const urlParams = new URLSearchParams(queryString);
 
       const id = urlParams.get("id");
-      buscaCriatura(id);
+      buscaMissao(id);
     </script>
   </body>
 </html>
