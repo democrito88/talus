@@ -1,0 +1,145 @@
+[
+  {"name":"The Pits of Inferno Quest","type":"quest","classes":["all"],"description":"Uma das quests mais icônicas do Tibia, enfrentando demônios e obtendo o Demon Outfit.","attributes":{"recommended_level":80,"reward":["Stonecutter Axe","Demon Outfit"],"location":"Plains of Havoc"}},
+  {"name":"Inquisition Quest","type":"quest","classes":["all"],"description":"Derrote os líderes do culto de Variphor para ganhar acesso ao prêmio final.","attributes":{"recommended_level":80,"reward":["Spellbook of Dark Mysteries","Crown","Inquisition Gold"],"location":"Thais"}},
+  {"name":"Wrath of the Emperor","type":"quest","classes":["all"],"description":"Ajude a Imperadora de Kilmaresh investigando conspirações e rituais sombrios.","attributes":{"recommended_level":80,"reward":["Royal Lost Basher","Zaoan Items"],"location":"Zao"}},
+  {"name":"The New Frontier","type":"access","classes":["all"],"description":"Ajuda política e militar para a expansão em Zao, desbloqueando montarias e áreas novas.","attributes":{"recommended_level":60,"reward":["Access to Zao","glooth routes"],"location":"Zao"}},
+  {"name":"The Forgotten Knowledge Quest","type":"quest","classes":["all"],"description":"Desafie seis bosses poderosos para obter o Prism of Light e equipamentos de alto nível.","attributes":{"recommended_level":200,"reward":["Soulcase","Ring of Blue Plasma"],"location":"Roshamuul"}},
+  {"name":"Dangerous Depths Quest","type":"quest","classes":["all"],"description":"Descubra os segredos das criaturas tentaculares nas profundezas de Kazordoon.","attributes":{"recommended_level":200,"reward":["Falcon Accessories"],"location":"Gnomprona"}},
+  {"name":"The Secret Library Quest","type":"quest","classes":["all"],"description":"Explore a biblioteca oculta criada pelos cultistas de Fardos.","attributes":{"recommended_level":250,"reward":["Cobra Boots","Cobra Hood"],"location":"Darashia Underground"}},
+  {"name":"The Dream Courts","type":"quest","classes":["all"],"description":"Ajude a manter o equilíbrio entre as cortes dos sonhos: Pesadelo e Feérica.","attributes":{"recommended_level":150,"reward":["Crown of the Percht Queen"],"location":"Feyrist"}},
+  {"name":"The Seven Keys Quest","type":"quest","classes":["all"],"description":"Colete sete chaves raras para explorar ruínas antigas.","attributes":{"recommended_level":80,"reward":["Access to POI-like areas"],"location":"Multiple Maps"}},
+  {"name":"Killing in the Name of...","type":"task","classes":["all"],"description":"Faça tarefas de caça para a Paw and Fur Society.","attributes":{"recommended_level":20,"reward":["Boss Access","Charm Points"],"location":"Svargrond"}},
+  
+  {"name":"The Djinn War – Blue Djinn","type":"access","classes":["all"],"description":"Escolha o lado azul e ganhe acesso aos vendedores djinn.","attributes":{"recommended_level":30,"reward":["Blue Djinn Trade"],"location":"Ankrahmun"}},
+  {"name":"The Djinn War – Green Djinn","type":"access","classes":["all"],"description":"Escolha o lado verde e ganhe acesso aos vendedores djinn.","attributes":{"recommended_level":30,"reward":["Green Djinn Trade"],"location":"Carlin"}},
+  
+  {"name":"The Paradox Tower","type":"quest","classes":["all"],"description":"Uma torre cheia de enigmas temporais e mágicos.","attributes":{"recommended_level":40,"reward":["Magic Light Wand","Strange Symbol"],"location":"Edron"}},
+  {"name":"The Desert Quest","type":"quest","classes":["all"],"description":"Clássica quest com batalha final contra um Dragon Lord.","attributes":{"recommended_level":20,"reward":["100 platinum coins"],"location":"Ankrahmun"}},
+  {"name":"The Behemoth Quest","type":"quest","classes":["all"],"description":"Aventure-se na caverna dos behemoths para obter o Giant Sword.","attributes":{"recommended_level":60,"reward":["Giant Sword"],"location":"Edron"}},
+  {"name":"The Annihilator Quest","type":"quest","classes":["all"],"description":"Derrote múltiplos demônios com uma equipe para ganhar armas raras.","attributes":{"recommended_level":60,"reward":["Demon Legs","Magic Sword","SOV"],"location":"Edron"}},
+  {"name":"The Banshee Quest","type":"quest","classes":["all"],"description":"Ajude a libertar uma banshee amaldiçoada e obtenha acesso ao Necromancer outfit.","attributes":{"recommended_level":60,"reward":["Necromancer Outfit Addon"],"location":"Darashia"}},
+  {"name":"The White Raven Monastery","type":"quest","classes":["all"],"description":"Ajuda os monges do monastério contra forças sombrias.","attributes":{"recommended_level":20,"reward":["Holy Icons","Monk Outfit Addons"],"location":"Edron"}},
+  {"name":"The Queen of the Banshees","type":"quest","classes":["all"],"description":"Explore o Labirinto das Banshees e enfrente criaturas macabras.","attributes":{"recommended_level":80,"reward":["Access to Banshee Boss"],"location":"Darashia"}},
+  
+  {"name":"Barbarian Test","type":"outfit","classes":["all"],"description":"Prove sua força para obter o Barbarian Outfit.","attributes":{"recommended_level":20,"reward":["Barbarian Outfit"],"location":"Svargrond"}},
+  {"name":"Shaman Outfit Quest","type":"outfit","classes":["all"],"description":"Reúna itens rituais importantes para o Shaman Outfit.","attributes":{"recommended_level":40,"reward":["Shaman Outfit"],"location":"Port Hope"}},
+  {"name":"Warrior Outfit Quest","type":"outfit","classes":["all"],"description":"Obtenha peças de armadura especiais para liberar o Warrior Outfit.","attributes":{"recommended_level":20,"reward":["Warrior Outfit"],"location":"Edron"}},
+
+  {"name":"The Explorer Society Quest","type":"quest","classes":["all"],"description":"Torne-se um explorador oficial e desbloqueie destinos remotos.","attributes":{"recommended_level":30,"reward":["Teleport Access"],"location":"Port Hope"}},
+  {"name":"Children of the Revolution","type":"quest","classes":["all"],"description":"Ajude a resistência rebelde de Liberty Bay.","attributes":{"recommended_level":50,"reward":["Outfit Addons","Liberty Bay Access"],"location":"Liberty Bay"}},
+  {"name":"Sea of Light","type":"quest","classes":["all"],"description":"Resolva um mistério envolvendo criaturas luminescentes.","attributes":{"recommended_level":80,"reward":["Sea Serpent Areas"],"location":"Svargrond"}},
+  {"name":"Factions of Oramond","type":"task","classes":["all"],"description":"Ajude diferentes facções envolvidas na guerra glooth.","attributes":{"recommended_level":80,"reward":["Glooth Factory Access"],"location":"Oramond"}},
+  
+  {"name":"The Ancient Tombs","type":"quest","classes":["all"],"description":"Explore as tumbas ancestrais de Darashia e seus faraós.","attributes":{"recommended_level":50,"reward":["Multiple Pharaoh Bosses"],"location":"Darashia"}},
+  {"name":"The Ice Islands Quest","type":"quest","classes":["all"],"description":"Ajude os moradores das ilhas congeladas contra criaturas místicas.","attributes":{"recommended_level":50,"reward":["Svargrond Ice Area","Addons"],"location":"Svargrond"}},
+  
+  {"name":"The Rookie Guard","type":"storyline","classes":["all"],"description":"Ajude os guardas iniciantes em Rookgaard.","attributes":{"recommended_level":2,"reward":["Experience","Basic Gear"],"location":"Rookgaard"}},
+  
+  {"name":"The Barbarian Arena","type":"arena","classes":["all"],"description":"Enfrente três arenas de combate progressivo.","attributes":{"recommended_level":50,"reward":["Trophies"],"location":"Svargrond"}},
+  {"name":"The Hive","type":"event","classes":["all"],"description":"Ajude os gnomos a combater o Hive — um organismo massivo.","attributes":{"recommended_level":80,"reward":["Gnome Reputation"],"location":"Krailos"}},
+  
+  {"name":"Liquid Black Quest","type":"quest","classes":["all"],"description":"Ajude a conter uma magia negra que ameaça a ilha.","attributes":{"recommended_level":120,"reward":["Black Hood"],"location":"Roshamuul"}},
+  {"name":"The Lightbearer","type":"world event","classes":["all"],"description":"Proteja faróis mágicos antes da escuridão total.","attributes":{"recommended_level":1,"reward":["Lightbearer Bonuses"],"location":"Multiple"}},
+  
+  {"name":"Blood Brothers","type":"quest","classes":["all"],"description":"Resolva o mistério de assassinatos em Venore.","attributes":{"recommended_level":30,"reward":["Access to Vampire Tower"],"location":"Venore"}},
+  
+  {"name":"The Hidden City of Beregar","type":"access","classes":["all"],"description":"Ganhe acesso à antiga cidade anã subterrânea.","attributes":{"recommended_level":60,"reward":["Direitos de Mineração"],"location":"Kazordoon"}},
+  
+  {"name":"The Shattered Isles","type":"quest","classes":["all"],"description":"Ajude as ilhas quebradas a superar suas rivalidades.","attributes":{"recommended_level":60,"reward":["Access to Goroma"],"location":"Liberty Bay"}},
+  
+  {"name":"The Spirit Grounds","type":"quest","classes":["all"],"description":"Ajude os druidas a purificar terras corrompidas.","attributes":{"recommended_level":40,"reward":["Nature Artifacts"],"location":"Tiquanda"}},
+
+  {"name":"The Thieves Guild Quest","type":"quest","classes":["all"],"description":"Torne-se membro da guilda dos ladrões.","attributes":{"recommended_level":30,"reward":["Sneaking Abilities"],"location":"Carlin"}},
+  {"name":"The Assassins Guild Quest","type":"quest","classes":["all"],"description":"Prove seu valor para juntar-se aos assassinos.","attributes":{"recommended_level":50,"reward":["Access to Yalahar Quests"],"location":"Edron"}},
+
+  {"name":"The Emperor's Daily","type":"daily","classes":["all"],"description":"Atividades diárias de suporte ao Império.","attributes":{"recommended_level":20,"reward":["Reputação"],"location":"Kazordoon"}},
+
+  {"name":"Warzones 1–3","type":"quest","classes":["all"],"description":"Ajude os gnomos a combater criaturas em zonas de guerra.","attributes":{"recommended_level":120,"reward":["Gnome Reputation","Gold Tokens"],"location":"Gnomprona"}},
+  {"name":"Warzones 4–6","type":"quest","classes":["all"],"description":"Enfrente inimigos ainda mais poderosos nas novas zonas.","attributes":{"recommended_level":200,"reward":["Gnome Reputation","Gold Tokens"],"location":"Gnomprona"}},
+  
+  {"name":"The Ruthless Seven","type":"storyline","classes":["all"],"description":"Enfrente os servidores demoníacos do submundo.","attributes":{"recommended_level":200,"reward":["Boss Access"],"location":"Multiple"}},
+  
+  {"name":"Roshamuul Questline","type":"quest","classes":["all"],"description":"Derrote as criaturas pesadelares de Roshamuul.","attributes":{"recommended_level":150,"reward":["Roshamuul Access","Boss Access"],"location":"Roshamuul"}},
+
+  {"name":"Krailos Questline","type":"quest","classes":["all"],"description":"Ajude as tribos de Krailos em sua luta constante.","attributes":{"recommended_level":60,"reward":["Access Areas"],"location":"Krailos"}},
+
+  {"name":"Primal Ordeal","type":"quest","classes":["all"],"description":"Derrote os ancestrais primordiais.","attributes":{"recommended_level":200,"reward":["Primal Gear"],"location":"Zao"}},
+
+  {"name":"Heart of Destruction","type":"boss quest","classes":["all"],"description":"Complete uma série de desafios extremos contra bosses.","attributes":{"recommended_level":250,"reward":["HoD Equipment"],"location":"Various"}},
+
+  {"name":"Feroxa World Event","type":"world event","classes":["all"],"description":"Libere o boss feral Feroxa mensalmente.","attributes":{"recommended_level":50,"reward":["Feroxa Items"],"location":"Venore"}},
+  
+  {"name":"Scarlett Etzel Mission","type":"boss quest","classes":["all"],"description":"Missão para abrir o boss Scarlett de Oramond.","attributes":{"recommended_level":150,"reward":["Loot raro"],"location":"Oramond"}},
+  
+  {"name":"The Were-Creature Missions","type":"mini quest","classes":["all"],"description":"Ajude moradores afetados por licantropia.","attributes":{"recommended_level":30,"reward":["Access to Were-Bosses"],"location":"Cormenian Woods"}},
+
+  {"name":"Grimvale Questline","type":"storyline","classes":["all"],"description":"Descubra a origem da maldição de Grimvale.","attributes":{"recommended_level":50,"reward":["Were Set"],"location":"Grimvale"}},
+
+  {"name":"The Last Lore Keeper","type":"storyline","classes":["all"],"description":"Ajude o guardião das histórias perdidas.","attributes":{"recommended_level":150,"reward":["Tomes Mágicos"],"location":"Roshamuul"}},
+
+  {"name":"The Beginners Quest","type":"tutorial","classes":["all"],"description":"Primeira missão guiada de Dawnport.","attributes":{"recommended_level":1,"reward":["Basic Gear"],"location":"Dawnport"}},
+
+  {"name":"Bigfoot's Burden","type":"quest","classes":["all"],"description":"Ganhe reputação gnomal para acessar missões avançadas.","attributes":{"recommended_level":120,"reward":["Gnomish Reputation"],"location":"Gnomebase Alpha"}},
+
+  {"name":"The Chyllfroest Quest","type":"quest","classes":["all"],"description":"Ajude criaturas geladas em Feyrist alternativa.","attributes":{"recommended_level":30,"reward":["Ice Items"],"location":"Chyllfroest"}},
+
+  {"name":"The First Dragon Quest","type":"quest","classes":["all"],"description":"Descubra segredos sobre o primeiro dragão.","attributes":{"recommended_level":150,"reward":["First Dragon Set"],"location":"Darashia"}},
+
+  {"name":"Soul War Quest","type":"quest","classes":["all"],"description":"Enfrente bosses devastadores na batalha espiritual.","attributes":{"recommended_level":300,"reward":["Soul War Equipment"],"location":"Roshamuul"}},
+
+  {"name":"The Vengoth Vampires","type":"quest","classes":["all"],"description":"Ajude a conter a influência vampírica em Vengoth.","attributes":{"recommended_level":120,"reward":["Access to Vampire Bosses"],"location":"Vengoth"}},
+  
+  {"name":"Nomad Outfit Quest","type":"outfit","classes":["all"],"description":"Ganhe o outfit desértico completando tarefas.","attributes":{"recommended_level":30,"reward":["Nomad Outfit"],"location":"Darashia"}},
+  
+  {"name":"The Ice Witch Quest","type":"quest","classes":["all"],"description":"Derrote a poderosa Ice Witch.","attributes":{"recommended_level":40,"reward":["Frozen Starlight"],"location":"Port Hope"}},
+  
+  {"name":"Lion's Rock","type":"quest","classes":["all"],"description":"Resolva enigmas tribais para enfrentar o boss Leão.","attributes":{"recommended_level":60,"reward":["Lion's Set"],"location":"Krailos"}},
+  
+  {"name":"The Tower Defence Quest","type":"minigame","classes":["all"],"description":"Defenda uma torre mágica contra hordas.","attributes":{"recommended_level":20,"reward":["Cosmetics"],"location":"Ab'Dendriel"}},
+
+  {"name":"Glooth Tower","type":"quest","classes":["all"],"description":"Investigue experiências com glooth maligno.","attributes":{"recommended_level":80,"reward":["Glooth Gear"],"location":"Oramond"}},
+
+  {"name":"Yalahar Questline","type":"storyline","classes":["all"],"description":"Ajude Yalahar em sua crise entre distritos.","attributes":{"recommended_level":60,"reward":["Yalahar Outfit"],"location":"Yalahar"}},
+  
+  {"name":"The Curse of the Full Moon","type":"event","classes":["all"],"description":"Enfrente licantropos durante a lua cheia.","attributes":{"recommended_level":30,"reward":["Lycan Gear"],"location":"Cormenian Woods"}},
+
+  {"name":"The Hive Born","type":"task","classes":["all"],"description":"Auxilie o exército gnomo contra a infestação.","attributes":{"recommended_level":100,"reward":["Gnome Faction Bonuses"],"location":"Krailos"}},
+
+  {"name":"The Gravedigger of Drefia","type":"quest","classes":["all"],"description":"Explore mistérios macabros em Drefia.","attributes":{"recommended_level":80,"reward":["Necromantic Trinkets"],"location":"Drefia"}},
+
+  {"name":"The Oramond Catacombs","type":"access","classes":["all"],"description":"Ganhe acesso às catacumbas secretas.","attributes":{"recommended_level":100,"reward":["Catacombs Access"],"location":"Oramond"}},
+
+  {"name":"Feyrist Access","type":"access","classes":["all"],"description":"Entre no reino mágico dos fae.","attributes":{"recommended_level":60,"reward":["Feyrist Access"],"location":"Feyrist"}},
+
+  {"name":"The Dream Scar","type":"quest","classes":["all"],"description":"Aprofunde-se nas cicatrizes entre os sonhos.","attributes":{"recommended_level":150,"reward":["Dream Warrior Items"],"location":"Feyrist"}},
+
+  {"name":"The Defiler's Quest","type":"quest","classes":["all"],"description":"Enfrente cultistas que profanam templos.","attributes":{"recommended_level":80,"reward":["Holy Artifacts"],"location":"Edron"}},
+
+  {"name":"The Knight's Watch","type":"quest","classes":["all"],"description":"Ajude Kazordoon contra invasões do subsolo.","attributes":{"recommended_level":70,"reward":["Dwarven Gear"],"location":"Kazordoon"}},
+
+  {"name":"The Eagle's Nest","type":"quest","classes":["all"],"description":"Ajude um grupo de mercenários em missões perigosas.","attributes":{"recommended_level":100,"reward":["Eagle Items"],"location":"Svargrond"}},
+
+  {"name":"The Tibian Zoo","type":"mini quest","classes":["all"],"description":"Ajude a capturar criaturas raras para o zoológico.","attributes":{"recommended_level":10,"reward":["Creature Products"],"location":"Carlin"}},
+
+  {"name":"The Holy Scarab","type":"quest","classes":["all"],"description":"Ajude um escaravelho sagrado em Ankrahmun.","attributes":{"recommended_level":50,"reward":["Golden Amulet"],"location":"Ankrahmun"}},
+
+  {"name":"The Curse of Hatred","type":"storyline","classes":["all"],"description":"Descubra a origem de uma antiga maldição.","attributes":{"recommended_level":150,"reward":["Cursed Artifacts"],"location":"Krailos"}},
+
+  {"name":"The Horned Fox Quest","type":"boss","classes":["all"],"description":"Enfrente o famoso Horned Fox.","attributes":{"recommended_level":20,"reward":["Fox Tail"],"location":"Thais"}},
+
+  {"name":"The Orc King Quest","type":"boss","classes":["all"],"description":"Derrote o lendário King Orc.","attributes":{"recommended_level":30,"reward":["Royal Orc Loot"],"location":"Orc Fortress"}},
+
+  {"name":"The Necromancer House","type":"quest","classes":["all"],"description":"Limpe uma casa cheia de necromantes.","attributes":{"recommended_level":40,"reward":["Necromancer Gear"],"location":"Edron"}},
+
+  {"name":"Diary of a Vampire","type":"mini quest","classes":["all"],"description":"Descubra segredos sobre a linhagem vampírica.","attributes":{"recommended_level":50,"reward":["Vampiric Trinkets"],"location":"Vengoth"}},
+
+  {"name":"The Marble Quest","type":"quest","classes":["all"],"description":"Resolva um quebra-cabeça de esculturas místicas.","attributes":{"recommended_level":30,"reward":["Marble Items"],"location":"Edron"}},
+
+  {"name":"The Werehyaena Quest","type":"quest","classes":["all"],"description":"Ajude habitantes amaldiçoados por hienas lunares.","attributes":{"recommended_level":70,"reward":["Werehyaena Items"],"location":"Darashia"}},
+
+  {"name":"The Spectral Sparks","type":"quest","classes":["all"],"description":"Colete essências fantasmagóricas.","attributes":{"recommended_level":120,"reward":["Spectral Equipment"],"location":"Roshamuul"}},
+
+  {"name":"The Forgotten Dragon","type":"quest","classes":["all"],"description":"Derrote um dragão ancestral esquecido.","attributes":{"recommended_level":150,"reward":["Ancient Dragon Loot"],"location":"Zao"}},
+
+  {"name":"The Hive Queen","type":"boss quest","classes":["all"],"description":"Enfrente a majestade do Hive.","attributes":{"recommended_level":200,"reward":["Hive Queen Loot"],"location":"Krailos"}}
+]

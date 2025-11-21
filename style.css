@@ -1,6 +1,6 @@
 /* Base de identidade visual inspirada no site clássico do Tibia */
 
-:root{
+:root {
   --dourado: #c99c2e; /* Dourado */
   --vermelho-escuro: #471313; /* Vermelho escuro */
   --cinza-chumbo: #2b2b2b; /* Fundo escuro */
@@ -9,30 +9,35 @@
 }
 
 @font-face {
-    font-family: 'Kingthins Petrock';
-    src: url('./assets/fonts/Kingthings\ Petrock.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Kingthins Petrock";
+  src: url("./assets/fonts/Kingthings\ Petrock.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Kingthings Petrock light';
-    src: url('./assets/fonts/Kingthings\ Petrock\ light.ttf') format('truetype');
-    font-weight: lighter;
-    font-style: normal;
+  font-family: "Kingthings Petrock light";
+  src: url("./assets/fonts/Kingthings\ Petrock\ light.ttf") format("truetype");
+  font-weight: lighter;
+  font-style: normal;
 }
 
 /* Tipografia e cores base */
 body {
   background-color: var(--cinza-chumbo); /* Fundo escuro medieval */
-  color: var(--pergaminho);            /* Texto em tom pergaminho/bege */
-  font-family: 'Georgia', serif;
+  color: var(--pergaminho); /* Texto em tom pergaminho/bege */
+  font-family: "Georgia", serif;
   margin: 0;
   padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Kingthings Petrock light', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Kingthings Petrock light", sans-serif;
 }
 
 /* Cabeçalho com identidade */
@@ -121,6 +126,14 @@ h2 {
   box-shadow: inset 0 0 10px #1a1a1a;
 }
 
+.box__titulo {
+  font-family: "Kingthings Petrock", sans-serif;
+  color: #e0c070;
+  margin-top: 0;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
 /* Botões estilo Tibia */
 .button {
   background: linear-gradient(to bottom, #c99c2e, #a57c1a);
@@ -139,6 +152,11 @@ h2 {
   transform: scale(1.05);
 }
 
+.button__more {
+  display: block;
+  margin: 20px auto 0 auto;
+}
+
 /* Rodapé */
 footer {
   background-color: #1a1a1a;
@@ -148,17 +166,79 @@ footer {
   border-top: 2px solid #444;
   font-size: 0.9em;
 
-  ul{
+  ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 1em;
     list-style-type: none;
 
-    a{
+    a {
       color: #aaa;
       text-decoration: none;
       font-size: 1.2em;
     }
   }
+}
+
+.criaturas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card-criatura {
+  background-color: #2e2e2e;
+  border: 2px solid var(--marrom-terra);
+  border-radius: 8px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+  a {
+    color: inherit; /* Mantém a cor original do texto */
+    text-decoration: none; /* Remove o sublinhado */
+  }
+
+  a:visited {
+    color: inherit; /* Impede que fique roxo após visitado */
+  }
+
+  a:hover {
+    text-decoration: underline; /* sublinhado apenas no hover */
+    cursor: pointer;
+  }
+}
+
+.card-criatura__elementos {
+  list-style-type: none;
+}
+
+.card-criatura__atributos {
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+.itens {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.card-item {
+  background-color: #2e2e2e;
+  border: 2px solid var(--marrom-terra);
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.card-missao {
+  background-color: #2e2e2e;
+  border: 2px solid var(--marrom-terra);
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }

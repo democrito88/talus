@@ -33,8 +33,19 @@
     </div>
     <h2>Boas-vindas, aventureiro!</h2>
     <div class="box">
-      <p>Este é um mundo de magia e espada. Escolha seu caminho com sabedoria.</p>
-      <button class="button">Entrar na Guilda</button>
+      <h3 class="box__titulo">Criaturas</h3>
+      <div class="criaturas"></div>
+      <button class="button button__more">Ver mais</button>
+    </div>
+    <div class="box">
+      <h3 class="box__titulo">Itens</h3>
+      <div class="itens"></div>
+      <button class="button button__more">Ver mais</button>
+    </div>
+    <div class="box">
+      <h3 class="box__titulo">Missões</h3>
+      <div class="missoes"></div>
+      <button class="button button__more">Ver mais</button>
     </div>
   </main>
   <footer>
@@ -46,6 +57,17 @@
       <h5>Tálus - 2025</h5>
       <small>&copy;Todos os direitos reservados</small>
   </footer>
+  <script src="js/creatures.js">
+  </script>
+  <script src="js/items.js">
+  </script>
+  <script src="js/missions.js">
+  </script>
+  <script type="text/javascript">
+    listarCriaturas(5);
+    listarItens(5);
+    listarMissoes(3);
+  </script>
 </body>
 </html>
    
