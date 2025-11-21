@@ -1,4 +1,4 @@
-# <img src="https://static.tibia.com/images/global/general/favicon.ico" alt="Tálus Logo" />álus
+# ![T](https://static.tibia.com/images/global/general/favicon.ico)álus
 base de conhecimento de Tibia
 
 ![Google Gemini](https://img.shields.io/badge/google%20gemini-8E75B2?style=for-the-badge&logo=google%20gemini&logoColor=white)
