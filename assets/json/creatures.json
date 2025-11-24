@@ -1,5 +1,15 @@
 [
-  {"name":"Rat","hp":20,"class":"Beast","elements":{"weak":"fire","resist":"earth"},"sprite":"https://images.unsplash.com/photo-1584270354949-1f5c1e0e0fbb","recommended_level":1},
+  {
+    "name":"Rat",
+    "hp":20,
+    "class":"Beast",
+    "elements":{
+      "weak":"fire",
+      "resist":"earth"
+      },
+    "sprite":"https://images.unsplash.com/photo-1584270354949-1f5c1e0e0fbb",
+    "recommended_level":1
+  },
   {"name":"Cave Rat","hp":30,"class":"Beast","elements":{"weak":"fire","resist":"earth"},"sprite":"https://images.unsplash.com/photo-1518791841217-8f162f1e1131","recommended_level":1},
   {"name":"Spider","hp":26,"class":"Beast","elements":{"weak":"fire","resist":"poison"},"sprite":"https://images.unsplash.com/photo-1508182311256-e3f7d50f2050","recommended_level":1},
   {"name":"Poison Spider","hp":30,"class":"Beast","elements":{"weak":"fire","resist":"poison"},"sprite":"https://images.unsplash.com/photo-1611416516720-fb4ff2b90c77","recommended_level":2},
